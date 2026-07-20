@@ -1,0 +1,12 @@
+ *{
+    margin:0px;
+    font-family: Arial;
+    border: border-box;
+ }
+
+/* Header */
+header{
+    background-color: #0f1111;
+    height: 60px;
+    color: white;
+}
