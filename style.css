@@ -3,6 +3,9 @@
     font-family: Arial;
     border: border-box;
  }
+ body{
+    background-color: #e2e7e6;
+ }
 
 /* Header */
 .navbar{
@@ -109,3 +112,230 @@
 .cart:hover{
     border: 1.5px solid white;
 }
+
+/* Panel Bar box 6 */
+
+.panel{
+    background-color: #222F3D;
+    height: 40px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menu{
+    display: flex;
+}
+
+.panel-options a{
+    text-decoration: none;
+    display: inline;
+    color: white;
+    margin-left: 15px;
+}
+.panel-options{
+    width: 95%;
+}
+.menu:hover{
+    border: 1.5px solid white;
+}
+.tags:hover{
+    border: 1.5px solid white;
+}
+/* Image of Home Page box 7 */
+
+.home-image{
+    background-image: url("Main-Image.jpg");
+    background-size: cover;
+    height: 450px;
+}
+
+/* Shop section boxes */
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    align-items: center;
+    background-color: transparent;
+    margin-top: -150px;
+    position: relative;
+    z-index: 1;
+}
+.see-more{
+    text-decoration: none;
+    color: #007185;
+}
+.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8{
+    border: 2px solid black;
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    border: none;
+}
+.box1-space{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.image-box1{
+    background-image: url("box1-image.jpg");
+    background-size: cover;
+    height: 300px;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+.image-box2{
+    background-image: url("box2-image.jpg");
+    background-size: cover;
+    height: 300px;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+.image-box3{
+    background-image: url("box3-image.jpg");
+    background-size: cover;
+    height: 300px;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+.image-box4{
+    background-image: url("box4-image.png");
+    background-size: cover;
+    height: 300px;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+
+.shop-section-1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.image-box5{
+    background-image: url("box5-image.png");
+    background-size: cover;
+    height: 300px;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+.image-box6{
+    background-image: url("box6-image.png");
+    background-size: cover;
+    height: 300px;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+.image-box7{
+    background-image: url("box7-image.png");
+    background-size: cover;
+    height: 300px;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+.image-box8{
+    background-image: url("box8-image.png");
+    background-size: cover;
+    height: 300px;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+
+.frame{
+    height: 189px;
+    background-color: white;
+    margin-top: 20px;
+}
+.border{
+    height: 149px;
+    /* background-color: white; */
+    padding: 15px 20px;
+    border-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.11px solid rgb(202, 202, 202);
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+.sign-in{
+    height: 91px;
+    /* background-color: white; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-top: 35px;
+    flex-wrap: wrap;
+}
+.tag-signin{
+    padding: 5px 11px;
+    color: #0f1111;
+    text-decoration: none;
+    background-color: #FF9900;
+    border-radius: 20px;
+    width: 148px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.new-customer{
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.start{
+    margin-left: 8px;
+}
+/* nav footer back to top */
+.nav-footer-to-top{
+    height: 49px;
+    background-color: #37475A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.nav-footer{
+    background-color: #232f3E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.tags-footer{
+    text-decoration: none;
+    color: rgb(141, 141, 141);
+    margin: 20px;
+    padding: 10px;
+}
+li{
+    list-style-type: none;
+    margin: 10px;
+}
+.get-to-know-us{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+}
+/* #131921;
+#232f3e;
+#37475A; */
