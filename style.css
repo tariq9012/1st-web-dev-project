@@ -321,7 +321,7 @@
     margin: 20px;
     padding: 10px;
 }
-li{
+.li{
     list-style-type: none;
     margin: 10px;
 }
@@ -330,11 +330,38 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 15px;
 }
-ul{
+.let-us-help{
+    margin-left: 58px;
+    color: white;
+}
+.ul{
     height: 150px;
     margin: 10px;
     padding: 10px;
+}
+
+/* copy right footer */
+
+.nav-copyright{
+    height: 77px;
+    background-color: #131A22;
+    padding: 10px 0px 30px;
+    color: #DDDDDD;
+}
+.nav-footer-list-2{
+    text-align: center;
+    padding-top: 30px;
+}
+.a-2{
+    text-decoration: none;
+    color: #DDDDDD;
+    margin: 10px;
+}
+.div-2{
+    text-align: center;
+    padding-top: 15px;
 }
 /* #131921;
 #232f3e;
